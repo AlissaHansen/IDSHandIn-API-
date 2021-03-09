@@ -51,6 +51,7 @@ class FirstForm(npyscreen.ActionFormMinimal):
     def on_ok(self):
         self.parentApp.switchForm(None)
 
+# RUN PROGRAM:
 app = App()
 app.run()
 
@@ -58,5 +59,5 @@ app.run()
 
 
 
-#print (response["age"])
+
 
